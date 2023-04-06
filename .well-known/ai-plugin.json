@@ -1,16 +1,16 @@
 {
   "schema_version": "v1",
-  "name_for_model": "retrieval",
-  "name_for_human": "Retrieval Plugin",
-  "description_for_model": "Plugin for searching through the user's documents (such as files, emails, and more) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in their personal information.",
-  "description_for_human": "Search through your documents.",
+  "name_for_model": "umich_course_db",
+  "name_for_human": "UMich Course Database",
+  "description_for_model": "Use this tool to get information about courses at the University of Michigan. Use this database for course evaluations, desriptions, grade history, median grade, and instructors/professors.",
+  "description_for_human": "Accelerate your UM course selection.",
   "auth": {
     "type": "user_http",
     "authorization_type": "bearer"
   },
   "api": {
     "type": "openapi",
-    "url": "https://your-app-url.com/.well-known/openapi.yaml",
+    "url": "https://umich-chatgpt-plugin.onrender.com",
     "has_user_authentication": false
   },
   "logo_url": "https://your-app-url.com/.well-known/logo.png",
